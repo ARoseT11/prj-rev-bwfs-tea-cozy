@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  display: block;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.content {
+  display: block;
+  padding-top: 70px;
+}
+
+/**
+#mission {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+**/
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: block;
+  padding-top: 70px;
+}
+
+/**Previously h2, h4**/
+.caption {
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin: 298.5px 0px;
+}
+
+h2, h3, h4, span {
+  padding: 10px;
+  margin: 0px 0px;
+  font-weight: bold;
+}
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: 0 100px;
+}
+
+#featured .flex_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  padding: 10px;
+}
+
+.product {
+  margin: 5px;
+}
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  display: block;
+
+}
+
+.flex_address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 50px;
+  width: 1100px;
+
+}
+
+.address {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  width: 300px;
+  margin: 5px 20px;
+}
+
+#contact {
+  height: 200px;
+  text-align: center;
+  display: block;
+  width: 1200px;
+}
+
+#copy {
+  text-align: left;
+  padding-left: 20px;
+}
